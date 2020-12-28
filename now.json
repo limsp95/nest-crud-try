@@ -1,5 +1,5 @@
 { 
-    "version": 2, 
+    "version": 1, 
     "name": "nest-crud-try", 
     "builds": [
       { "src": "dist/main.js", "use": "@now/node" }
