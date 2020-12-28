@@ -1,0 +1,10 @@
+{ 
+  "version": 2, 
+  "name": "nestjs-now", 
+  "builds": [
+    { "src": "dist", "use": "@now/node" }
+   ],
+  "routes": [
+    { "src": "/user", "dest": "dist" }
+   ]
+}
